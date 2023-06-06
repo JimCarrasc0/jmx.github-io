@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.bloque1{
+    align-self: center;
+    align-items: center;
+}
+
+.container-image{
+    position: relative;
+	width: 350px;
+}
+
+.button-container{
+	position: relative;
+	width: 475px;
+	margin-top: 20px;
+	display: grid;
+	gap: 5px;
+}
+
+.additional-buttons {
+	display: none;
+}
+
+.text-overlay {
+      position: absolute;
+      top: 95px;
+	  left: 237px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+	  text-shadow: -1px -1px 0 #707070, 1px -1px 0 #707070, -1px 1px 0 #707070, 1px 1px 0 #707070;
+    }
+
+body{
+    background-color: #ba71fc;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+h1{
+	font-family: Roboto;
+	color: white;
+    font-size: 50px;
+	font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+}
+
+button {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 20px;
+	color: #707070;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	
+	
+}
+
+/*https://expertphotography.b-cdn.net/wp-content/uploads/2020/06/stock-photography-trends11.jpg
+https://regardis.com/como-poner-texto-encima-de-una-imagen-con-html-css/*/
+
