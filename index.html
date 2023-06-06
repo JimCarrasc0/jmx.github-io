@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Nombre</title>
+		
+		<script>
+			function mostrarBotones() {
+			  var botonesAdicionales = document.getElementsByClassName('additional-buttons');
+			  var botonPrincipal = document.getElementById('boton-principal');
+		
+			  if (botonesAdicionales[0].style.display === 'none') {
+				for (var i = 0; i < botonesAdicionales.length; i++) {
+					botonesAdicionales[i].style.display = 'inline-block';
+				}
+				botonPrincipal.innerText = 'Ocultar botones';
+			  } else {
+				for (var i = 0; i < botonesAdicionales.length; i++) {
+					botonesAdicionales[i].style.display = 'none';
+				}
+				botonPrincipal.innerText = 'Mostrar más botones';
+			  }
+			}
+		</script>
+		
+    </head>
+
+    <body>
+        <div class="container-image">
+        	<img src="https://www.misgafasdepasta.com/wp-content/uploads/2018/03/fotos-de-stock-mas-raras-mis-gafas-de-pasta05.jpg" alt="Descripción imagen" width="475" height="475" >
+			<div class ="text-overlay">
+		  		<h1>Nombre</h1>
+			</div>
+			
+        </div>
+		
+		<div class="button-container">
+			<button onclick="window.location.href='/mi-trabajo'">Mi Trabajo</button>
+			
+			<button onclick="mostrarBotones()">Mis Redes</button>
+			
+			<button class="additional-buttons" onClick="window.location.href='https://www.instagram.com'">Instagram</button>
+			<button class="additional-buttons" onClick="window.location.href='https://www.tiktok.com'">TikTok</button>
+			<button class="additional-buttons" onClick="window.location.href='https://www.twitch.tv'">Twitch</button>
+		</div>
+    </body>
+</html>
+
