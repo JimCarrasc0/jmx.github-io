@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/JimCarrasc0/jmx.github-io/static/css/main.4ce7ef11.css",
+    "main.js": "/JimCarrasc0/jmx.github-io/static/js/main.5376efc6.js",
+    "static/js/787.1ed0c42c.chunk.js": "/JimCarrasc0/jmx.github-io/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/JimCarrasc0/jmx.github-io/index.html",
+    "main.4ce7ef11.css.map": "/JimCarrasc0/jmx.github-io/static/css/main.4ce7ef11.css.map",
+    "main.5376efc6.js.map": "/JimCarrasc0/jmx.github-io/static/js/main.5376efc6.js.map",
+    "787.1ed0c42c.chunk.js.map": "/JimCarrasc0/jmx.github-io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ce7ef11.css",
+    "static/js/main.5376efc6.js"
+  ]
+}
